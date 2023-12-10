@@ -1,26 +1,26 @@
-## the_PINPIP_project
+# the_PINPIP_project
 
 the Pininterest Data Pipeline project (no 3)
 
-## Abstract
+# Abstract
 
 The purpose of this project is to build two types of data engineering pipelines, for processing *batch* and *streaming* data from the Pinterest social media service. Distributed computing services (AWS Cloud) are employed, and the processed data sets are eventually stored in predisposed cloud S3 buckets. 
 
 Here below an outline of the basic components of the ETL pipelines:
 
 *Batch data*  
-        a. Amazon API Gateway  
-        b. Virtual Private Cloud: EC2 Instance  
-            1. Confluent-kafka-connect-s3  
-            2. Confluent kafka REST proxy  
-            3. Kafka consumer  
-        c. Amazon S3  
-        d. Databricks Notebook 
+1. Amazon API Gateway  
+2. Virtual Private Cloud: EC2 Instance  
+        2a. Confluent-kafka-connect-s3  
+        2b. Confluent kafka REST proxy  
+        2c. Kafka consumer  
+3. Amazon S3  
+4. Databricks Notebook 
 
 *Streaming data*  
-        a. Amazon API Gateway  
-        b. Virtual Private Cloud: Amazon Kinesis  
-        c. Databricks Delta Lake 
+1. Amazon API Gateway  
+2. Virtual Private Cloud: Amazon Kinesis  
+3. Databricks Delta Lake 
 
 Here below a glimpse of the data sets:
 
@@ -35,15 +35,15 @@ They are stored as json files, each readable with json_load(<string that point t
 3. user_data
     *user* {'ind': 7528, 'first_name':'Abigail', 'last_name':'Ali','age':'25','date_joined: cxxc}
     
-In summary, there are 12 key-value pairs in *post*; 5 keys in *geo*; 5 keys in *usr*. Their *primary keys* are index/ind, which seem the same just but with different name.
+In summary, there are 12 key-value pairs in *post*; 5 key-value in *geo*; 5 key-value in *usr*. Their *primary keys* are index/ind, which seem the same variable but with different name.
 
 
-## Table of Content
+# Table of Content
 
-## Description of the project
+# Description of the project
 
-## Usage Instructions
+# Usage Instructions
 
-## Licence Information
+# Licence Information
 
 This program suite is not covered by licence. It was built in partial fullfilment of the requirements for the AICore Data Engineering certification.
