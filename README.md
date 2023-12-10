@@ -15,13 +15,12 @@ Here below an outline of the basic components of the ETL pipelines:
         2. Confluent kafka REST proxy  
         3. Kafka consumer  
     c. Amazon S3  
-    d. Databricks lakehouse?  
+    d. Databricks Notebook 
 
 *Streaming data*  
     a. Amazon API Gateway  
     b. Virtual Private Cloud: Amazon Kinesis  
-    c. Databricks Delta  
-    d. Databricks lakehouse?  
+    c. Databricks Delta Lake 
 
 Here below a glimpse of the data sets:
 
