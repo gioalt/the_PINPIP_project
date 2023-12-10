@@ -9,18 +9,18 @@ The purpose of this project is to build two types of data engineering pipelines,
 Here below an outline of the basic components of the ETL pipelines:
 
 *Batch data*  
-    a. Amazon API Gateway  
-    b. Virtual Private Cloud: EC2 Instance  
-        1. Confluent-kafka-connect-s3  
-        2. Confluent kafka REST proxy  
-        3. Kafka consumer  
-    c. Amazon S3  
-    d. Databricks Notebook 
+        a. Amazon API Gateway  
+        b. Virtual Private Cloud: EC2 Instance  
+            1. Confluent-kafka-connect-s3  
+            2. Confluent kafka REST proxy  
+            3. Kafka consumer  
+        c. Amazon S3  
+        d. Databricks Notebook 
 
 *Streaming data*  
-    a. Amazon API Gateway  
-    b. Virtual Private Cloud: Amazon Kinesis  
-    c. Databricks Delta Lake 
+        a. Amazon API Gateway  
+        b. Virtual Private Cloud: Amazon Kinesis  
+        c. Databricks Delta Lake 
 
 Here below a glimpse of the data sets:
 
