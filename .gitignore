@@ -1,3 +1,8 @@
+## customised file lines
+0ea96e05a33-key-pair.pem
+.DS_Store
+##
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
