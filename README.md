@@ -35,10 +35,15 @@ In summary, there are 12 key-value pairs in *post*; 5 key-value in *geo*; 5 key-
 
 # Table of Content
 
+Databricks Notebooks: Extract (from S3), Transform
+Python Codes: Load (emulator files) to S3
+
 # Description of the project
 
 # Usage Instructions
 
+timeline: emulators -> notebooks
+
 # Licence Information
 
-This program suite is not covered by licence. It was built in partial fullfilment of the requirements for the AICore Data Engineering certification.
+This program suite is not covered by licence, although this project cannot be used without appropriate credentials. It was built in partial fullfilment of the requirements for the AICore Data Engineering certification.
