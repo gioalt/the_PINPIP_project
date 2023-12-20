@@ -13,7 +13,8 @@ The purpose of this project is to build two types of data engineering pipelines 
         2b. Confluent kafka REST proxy  
         2c. Kafka consumer  
 3. Amazon S3  
-4. Databricks Notebook 
+4. Databricks Notebook
+5. Airflow DAG, daily schedule 
 
 *Streaming data*  
 1. Amazon API Gateway  
