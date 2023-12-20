@@ -14,11 +14,13 @@ random.seed(100)
 ###to invoke_my_api_geo.py
 def invoke_my_api(geo_result):
     invoke_url = "https://34vvvigdyh.execute-api.us-east-1.amazonaws.com/test/topics/0ea9a6e05a33.geo"
+    
     #NB:time to be transformed to ISO standard: 
     #from datetime import date date(yyyy,mm,dd).isoformat()
     geo_result['timestamp'] = geo_result['timestamp'].isoformat()
     payload = json.dumps({
     "records": [{ "value": geo_result }]}, default=str)
+    
     headers = {'Content-Type': 'application/vnd.kafka.json.v2+json'}
     response = requests.request("POST", invoke_url, headers=headers, data=payload)
     print(response.status_code)
