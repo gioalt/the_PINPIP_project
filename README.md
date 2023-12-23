@@ -4,7 +4,7 @@ the Pininterest Data Pipeline project (no 3)
 
 # Abstract
 
-The purpose of this project is to build two types of data engineering pipelines for processing both *batch* (periodical, complete, high-volume, repetitive) and *streaming* (continuous,high-volume,incremental) data from the Pinterest social media service. Distributed computing services (AWS Cloud) are employed, and the processed data sets are eventually stored in predisposed cloud S3 buckets. An outline of the basic components of these ETL pipelines is as follows:
+The purpose of this project is to build two types of data engineering pipelines for processing both *batch* (periodical, complete, high-volume, repetitive) and *streaming* (continuous,high-volume,incremental) data from the Pinterest social media service. Distributed computing services (AWS Cloud Computing) are employed, and the processed data sets are eventually stored in predisposed cloud S3 buckets. An outline of the basic components of these ETL pipelines is as follows:
 
 *Batch data*  
 1. Amazon API Gateway  
@@ -41,10 +41,12 @@ Python Codes: Load (emulator files) to S3
 
 # Description of the project
 
+Two types of ETL pipelines are assembled for processing batch and streaming data using Amazon Web Services.
+
 # Usage Instructions
 
 timeline: emulators -> notebooks
 
 # Licence Information
 
-This program suite is not covered by licence, although this project cannot be used without appropriate credentials. It was built in partial fullfilment of the requirements for the AICore Data Engineering certification.
+This program suite is not covered by licence, but this project cannot be used without appropriate credentials. The PINPIP suite was built in partial fullfilment of the requirements for the AICore Data Engineering certification.
